@@ -16,6 +16,13 @@ public class Game {
 		B.setTurn(UsefulConstants.FALSE);
 		A.setChoice('o');
 		B.setChoice('x');
+		System.out.println(Play.selectBlock(A, 0, 0));
+		System.out.println(Play.selectBlock(B, 0, 0));
+		System.out.println(Play.selectBlock(B, 2, 0));
+		System.out.println(Play.selectBlock(A, 0, 1));
+		System.out.println(Play.selectBlock(B, 2, 1));
+		System.out.println(Play.selectBlock(A, 0, 2));
+		System.out.println(Play.selectBlock(B, 2, 2));
 
 	}
 
